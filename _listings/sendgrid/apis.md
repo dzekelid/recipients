@@ -35,7 +35,7 @@ apis:
   tags: Recipients
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/recipients/master/_listings/sendgrid/contactdb-recipients-recipient-id-lists-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/recipients/master/_listings/sendgrid/contactdb-segments-segment-id-recipients-get.md
 x-common:
 - type: x-net-library
   url: https://sendgrid.com/docs/Code_Examples/csharp.html
