@@ -33,7 +33,7 @@ apis:
   tags: Recipients
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/recipients/master/_listings/stripe/recipients-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/recipients/master/_listings/stripe/recipients-id-delete.md
 x-common:
 - type: x-base
   url: https://api.stripe.com/
