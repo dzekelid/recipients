@@ -49,22 +49,20 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/recipients/master/_listings/sendgrid/contactdb-lists-list-id-recipients-get.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/recipients/master/_listings/sendgrid/contactdb-lists-list-id-recipients-get-postman.md
-- name: SendGrid Patch Contactdb Recipients
+- name: SendGrid Add Contactdb Recipients
   description: |-
-    **This endpoint allows you to update one or more recipients.**
+    **This endpoint allows you to add a Marketing Campaigns recipient.**
 
-    The body of an API call to this endpoint must include an array of one or more recipient objects.
+    You can add custom field data as a parameter on this endpoint. We have provided an example using some of the default custom fields SendGrid provides.
 
-    It is of note that you can add custom field data as parameters on recipient objects. We have provided an example using some of the default custom fields SendGrid provides.
-
-    The contactdb is a database of your contacts for [SendGrid Marketing Campaigns](https://sendgrid.com/docs/User_Guide/Marketing_Campaigns/index.html).
+    The Contacts API helps you manage your [Marketing Campaigns](https://sendgrid.com/docs/User_Guide/Marketing_Campaigns/index.html) recipients.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
   humanURL: https://sendgrid.com/
   baseURL: https://api.sendgrid.com//v3
   tags: Recipients
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/recipients/master/_listings/sendgrid/contactdb-recipients-patch.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/recipients/master/_listings/sendgrid/contactdb-recipients-post.md
 x-common:
 - type: x-net-library
   url: https://sendgrid.com/docs/Code_Examples/csharp.html
