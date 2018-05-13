@@ -34,18 +34,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/recipients/master/_listings/stripe/recipients-id-post.md
-- name: Stripe Get Recipients
-  description: Retrieves the details of an existing recipient. You need only supply
-    the unique recipient identifier that was returned upon recipient creation.
+- name: Stripe Add Recipients
+  description: Post Recipients
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1/
   tags: Recipients
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/recipients/master/_listings/stripe/recipients-id-get.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/recipients/master/_listings/stripe/recipients-id-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/recipients/master/_listings/stripe/recipients-id-post.md
 x-common:
 - type: x-base
   url: https://api.stripe.com/
