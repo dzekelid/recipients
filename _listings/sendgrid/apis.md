@@ -49,9 +49,18 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/recipients/master/_listings/sendgrid/contactdb-lists-list-id-recipients-get.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/recipients/master/_listings/sendgrid/contactdb-lists-list-id-recipients-get-postman.md
-- name: SendGrid Get Contactdb Recipients Count
+- name: SendGrid Get Contactdb Recipients Search
   description: |-
-    **This endpoint allows you to retrieve the total number of Marketing Campaigns recipients.**
+    **This endpoint allows you to perform a search on all of your Marketing Campaigns recipients.**
+
+    field_name:
+
+    * is a variable that is substituted for your actual custom field name from your recipient.
+    * Text fields must be url-encoded. Date fields are searchable only by unix timestamp (e.g. 2/2/2015 becomes 1422835200)
+    * If field_name is a 'reserved' date field, such as created_at or updated_at, the system will internally convert
+    your epoch time to a date range encompassing the entire day. For example, an epoch time of 1422835600 converts to
+    Mon, 02 Feb 2015 00:06:40 GMT, but internally the system will search from Mon, 02 Feb 2015 00:00:00 GMT through
+    Mon, 02 Feb 2015 23:59:59 GMT.
 
     The contactdb is a database of your contacts for [SendGrid Marketing Campaigns](https://sendgrid.com/docs/User_Guide/Marketing_Campaigns/index.html).
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
@@ -60,9 +69,9 @@ apis:
   tags: Recipients
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/recipients/master/_listings/sendgrid/contactdb-recipients-count-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/recipients/master/_listings/sendgrid/contactdb-recipients-search-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/recipients/master/_listings/sendgrid/contactdb-recipients-count-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/recipients/master/_listings/sendgrid/contactdb-recipients-search-get-postman.md
 x-common:
 - type: x-net-library
   url: https://sendgrid.com/docs/Code_Examples/csharp.html
