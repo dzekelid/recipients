@@ -34,15 +34,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/recipients/master/_listings/stripe/recipients-id-post.md
-- name: Stripe Add Recipients
-  description: Post Recipients
+- name: Stripe Delete Recipients
+  description: Permanently deletes a recipient. It cannot be undone.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1/
   tags: Recipients
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/recipients/master/_listings/stripe/recipients-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/recipients/master/_listings/stripe/recipients-id-delete.md
 x-common:
 - type: x-base
   url: https://api.stripe.com/
