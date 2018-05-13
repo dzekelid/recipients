@@ -21,15 +21,15 @@ modified: "2018-05-13"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/recipients/master/_listings/dyn/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Dyn Activate Recipient(s)
-  description: Activating a specified Recipientu2019s status
+- name: Dyn Retrieve Recipient(s) Status
+  description: Retrieve Recipient(s) Status
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/dyn-logo.png
   humanURL: http://dyn.com/
   baseURL: https://{host}//
   tags: Recipients
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/recipients/master/_listings/dyn/recipients-activate-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/recipients/master/_listings/dyn/recipients-status-get.md
 x-common:
 - type: x-base
   url: https://api.dynect.net
