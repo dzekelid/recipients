@@ -1,35 +1,48 @@
 ---
 name: Dyn
-description: Dyn helps companies monitor, control, and optimize online infrastructure
-  to improve end-user experience. Their Internet performance product suite includes
-  Dyn Internet Intelligence, IP Transit Intelligence, Traffic Director, and DNS APIs.
-  Dyn provides enterprise level sales and pricing for their DNS, and email services.
-image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/dyn-logo.png
+x-slug: dyn
+description: Dyn is home to the worlds most trusted DNS product suite and the worlds
+  most reputable Email Deliverability Service.
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/582-dyn.jpg
 x-kinRank: "8"
-x-alexaRank: ""
-tags:
-- Stack Network
-- Partners
-- Getting Started
-- Email API
-- Email
-- DNS General
-- DNS
-- DNS
-created: "2018-05-13"
-modified: "2018-05-13"
+x-alexaRank: "20789"
+tags: Recipients
+created: "2018-06-20"
+modified: "2018-06-20"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/recipients/master/_listings/dyn/apis.md
 specificationVersion: "0.14"
 apis:
+- name: Dyn Activate Recipient(s)
+  x-api-slug: dyn
+  description: Activating a specified Recipientu2019s status
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/582-dyn.jpg
+  humanURL: http://dynect.net
+  baseURL: https:////recipients/activate
+  tags: Activate, Recipients
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/recipients/master/_listings/dyn/recipientsactivate-post-openapi.md
 - name: Dyn Retrieve Recipient(s) Status
+  x-api-slug: dyn
   description: Retrieve Recipient(s) Status
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/dyn-logo.png
-  humanURL: http://dyn.com/
-  baseURL: https://{host}//
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/582-dyn.jpg
+  humanURL: http://dynect.net
+  baseURL: https:////recipients/status
+  tags: Retrieve, Recipients, Status
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/recipients/master/_listings/dyn/recipientsstatus-get-openapi.md
+- name: Dyn
+  x-api-slug: dyn
+  description: Dyn is home to the worlds most trusted DNS product suite and the worlds
+    most reputable Email Deliverability Service.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/582-dyn.jpg
+  humanURL: http://dynect.net
+  baseURL: https:///
   tags: Recipients
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/recipients/master/_listings/dyn/recipients-status-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/recipients/master/_listings/dyn/openapi.md
 x-common:
 - type: x-base
   url: https://api.dynect.net
@@ -43,8 +56,14 @@ x-common:
   url: http://research.dyn.com/feed/
 - type: x-crunchbase
   url: http://www.crunchbase.com/company/dyn
+- type: x-crunchbase
+  url: https://crunchbase.com/organization/dyn
 - type: x-developer
   url: https://help.dyn.com/developers/
+- type: x-email
+  url: billing@dyndns.com
+- type: x-email
+  url: privacy@dyn.com
 - type: x-forum
   url: http://www.dyndnscommunity.com/
 - type: x-getting-started
@@ -67,6 +86,8 @@ x-common:
   url: http://dyn.com/legal/dyn-services-agreement/
 - type: x-twitter
   url: https://twitter.com/Dyn
+- type: x-website
+  url: http://dynect.net
 - type: x-website
   url: http://dyn.com/
 include: []
