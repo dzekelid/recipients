@@ -357,6 +357,58 @@ paths:
       - Contactdb
       - Recipients
       - Recipient
+  /contactdb/recipients/{recipient_id}/lists:
+    get:
+      summary: Get Contactdb Recipients Recipient  Lists
+      description: |-
+        **This endpoint allows you to retrieve the lists that a given recipient belongs to.**
+
+        Each recipient can be on many lists. This endpoint gives you all of the lists that any one recipient has been added to.
+
+        The Contacts API helps you manage your [Marketing Campaigns](https://sendgrid.com/docs/User_Guide/Marketing_Campaigns/index.html) recipients.
+      operationId: contactdb.recipients.recipient_id.lists.get
+      x-api-path-slug: contactdbrecipientsrecipient-idlists-get
+      parameters:
+      - in: query
+        name: No Name
+      responses:
+        200:
+          description: OK
+      tags:
+      - Email
+      - Contactdb
+      - Recipients
+      - Recipient
+      - ""
+      - Lists
+  /contactdb/segments/{segment_id}/recipients:
+    get:
+      summary: Get Contactdb Segments Segment  Recipients
+      description: |-
+        **This endpoint allows you to retrieve all of the recipients in a segment with the given ID.**
+
+        The Contacts API helps you manage your [Marketing Campaigns](https://sendgrid.com/docs/User_Guide/Marketing_Campaigns/index.html) recipients.
+
+        For more information about segments in Marketing Campaigns, please see our [User Guide](https://sendgrid.com/docs/User_Guide/Marketing_Campaigns/lists.html#-Create-a-Segment).
+      operationId: contactdb.segments.segment_id.recipients.get
+      x-api-path-slug: contactdbsegmentssegment-idrecipients-get
+      parameters:
+      - in: query
+        name: No Name
+      - in: query
+        name: page
+      - in: query
+        name: page_size
+      responses:
+        200:
+          description: OK
+      tags:
+      - Email
+      - Contactdb
+      - Segments
+      - Segment
+      - ""
+      - Recipients
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

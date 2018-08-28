@@ -7,27 +7,28 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgr
 x-kinRank: "9"
 x-alexaRank: "10000"
 tags: Recipients
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/recipients/master/_listings/sendgrid/apis.md
 specificationVersion: "0.14"
 apis:
-- name: SendGrid Get Contactdb Lists List  Recipients
-  x-api-slug: sendgrid
+- name: SendGrid - Get Contactdb Lists List  Recipients
+  x-api-slug: contactdblistslist-idrecipients-get
   description: "**This endpoint allows you to retrieve all recipients on the list
     with the given ID.** \n\nThe Contacts API helps you manage your [Marketing Campaigns](https://sendgrid.com/docs/User_Guide/Marketing_Campaigns/index.html)
     recipients."
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
   humanURL: http://sendgrid.com
-  baseURL: https://api.sendgrid.com//v3//contactdb/lists/{list_id}/recipients
-  tags: Email,Contactdb, Lists, List, , Recipients
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/recipients/master/_listings/sendgrid/contactdblistslist-idrecipients-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/recipients/master/_listings/sendgrid/contactdblistslist-idrecipients-get-openapi.md
-- name: SendGrid Add Contactdb Lists List  Recipients
-  x-api-slug: sendgrid
+- name: SendGrid - Add Contactdb Lists List  Recipients
+  x-api-slug: contactdblistslist-idrecipients-post
   description: |-
     **This endpoint allows you to add multiple recipients to a list.**
 
@@ -36,39 +37,42 @@ apis:
     The Contacts API helps you manage your [Marketing Campaigns](https://sendgrid.com/docs/User_Guide/Marketing_Campaigns/index.html) recipients.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
   humanURL: http://sendgrid.com
-  baseURL: https://api.sendgrid.com//v3//contactdb/lists/{list_id}/recipients
-  tags: Email,Contactdb, Lists, List, , Recipients
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/recipients/master/_listings/sendgrid/contactdblistslist-idrecipients-post-openapi.md
-- name: SendGrid Delete Contactdb Lists List  Recipients Recipient
-  x-api-slug: sendgrid
+- name: SendGrid - Delete Contactdb Lists List  Recipients Recipient
+  x-api-slug: contactdblistslist-idrecipientsrecipient-id-delete
   description: |-
     **This endpoint allows you to delete a single recipient from a list.**
 
     The Contacts API helps you manage your [Marketing Campaigns](https://sendgrid.com/docs/User_Guide/Marketing_Campaigns/index.html) recipients.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
   humanURL: http://sendgrid.com
-  baseURL: https://api.sendgrid.com//v3//contactdb/lists/{list_id}/recipients/{recipient_id}
-  tags: Email,Contactdb, Lists, List, , Recipients, Recipient
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/recipients/master/_listings/sendgrid/contactdblistslist-idrecipientsrecipient-id-delete-openapi.md
-- name: SendGrid Add Contactdb Lists List  Recipients Recipient
-  x-api-slug: sendgrid
+- name: SendGrid - Add Contactdb Lists List  Recipients Recipient
+  x-api-slug: contactdblistslist-idrecipientsrecipient-id-post
   description: |-
     **This endpoint allows you to add a single recipient to a list.**
 
     The Contacts API helps you manage your [Marketing Campaigns](https://sendgrid.com/docs/User_Guide/Marketing_Campaigns/index.html) recipients.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
   humanURL: http://sendgrid.com
-  baseURL: https://api.sendgrid.com//v3//contactdb/lists/{list_id}/recipients/{recipient_id}
-  tags: Email,Contactdb, Lists, List, , Recipients, Recipient
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/recipients/master/_listings/sendgrid/contactdblistslist-idrecipientsrecipient-id-post-openapi.md
-- name: SendGrid Delete Contactdb Recipients
-  x-api-slug: sendgrid
+- name: SendGrid - Delete Contactdb Recipients
+  x-api-slug: contactdbrecipients-delete
   description: |-
     **This endpoint allows you to deletes one or more recipients.**
 
@@ -77,13 +81,14 @@ apis:
     The contactdb is a database of your contacts for [SendGrid Marketing Campaigns](https://sendgrid.com/docs/User_Guide/Marketing_Campaigns/index.html).
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
   humanURL: http://sendgrid.com
-  baseURL: https://api.sendgrid.com//v3//contactdb/recipients
-  tags: Email,Contactdb, Recipients
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/recipients/master/_listings/sendgrid/contactdbrecipients-delete-openapi.md
-- name: SendGrid Get Contactdb Recipients
-  x-api-slug: sendgrid
+- name: SendGrid - Get Contactdb Recipients
+  x-api-slug: contactdbrecipients-get
   description: |-
     **This endpoint allows you to retrieve all of your Marketing Campaigns recipients.**
 
@@ -93,15 +98,16 @@ apis:
     The Contacts API helps you manage your [Marketing Campaigns](https://sendgrid.com/docs/User_Guide/Marketing_Campaigns/index.html) recipients.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
   humanURL: http://sendgrid.com
-  baseURL: https://api.sendgrid.com//v3//contactdb/recipients
-  tags: Email,Contactdb, Recipients
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/recipients/master/_listings/sendgrid/contactdbrecipients-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/recipients/master/_listings/sendgrid/contactdbrecipients-get-openapi.md
-- name: SendGrid Patch Contactdb Recipients
-  x-api-slug: sendgrid
+- name: SendGrid - Patch Contactdb Recipients
+  x-api-slug: contactdbrecipients-patch
   description: |-
     **This endpoint allows you to update one or more recipients.**
 
@@ -112,13 +118,14 @@ apis:
     The contactdb is a database of your contacts for [SendGrid Marketing Campaigns](https://sendgrid.com/docs/User_Guide/Marketing_Campaigns/index.html).
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
   humanURL: http://sendgrid.com
-  baseURL: https://api.sendgrid.com//v3//contactdb/recipients
-  tags: Email,Contactdb, Recipients
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/recipients/master/_listings/sendgrid/contactdbrecipients-patch-openapi.md
-- name: SendGrid Add Contactdb Recipients
-  x-api-slug: sendgrid
+- name: SendGrid - Add Contactdb Recipients
+  x-api-slug: contactdbrecipients-post
   description: |-
     **This endpoint allows you to add a Marketing Campaigns recipient.**
 
@@ -127,13 +134,14 @@ apis:
     The Contacts API helps you manage your [Marketing Campaigns](https://sendgrid.com/docs/User_Guide/Marketing_Campaigns/index.html) recipients.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
   humanURL: http://sendgrid.com
-  baseURL: https://api.sendgrid.com//v3//contactdb/recipients
-  tags: Email,Contactdb, Recipients
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/recipients/master/_listings/sendgrid/contactdbrecipients-post-openapi.md
-- name: SendGrid Get Contactdb Recipients Billable Count
-  x-api-slug: sendgrid
+- name: SendGrid - Get Contactdb Recipients Billable Count
+  x-api-slug: contactdbrecipientsbillable-count-get
   description: |-
     **This endpoint allows you to retrieve the number of Marketing Campaigns recipients that you will be billed for.**
 
@@ -142,30 +150,32 @@ apis:
     The Contacts API helps you manage your [Marketing Campaigns](https://sendgrid.com/docs/User_Guide/Marketing_Campaigns/index.html) recipients.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
   humanURL: http://sendgrid.com
-  baseURL: https://api.sendgrid.com//v3//contactdb/recipients/billable_count
-  tags: Email,Contactdb, Recipients, Billable, Count
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/recipients/master/_listings/sendgrid/contactdbrecipientsbillable-count-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/recipients/master/_listings/sendgrid/contactdbrecipientsbillable-count-get-openapi.md
-- name: SendGrid Get Contactdb Recipients Count
-  x-api-slug: sendgrid
+- name: SendGrid - Get Contactdb Recipients Count
+  x-api-slug: contactdbrecipientscount-get
   description: |-
     **This endpoint allows you to retrieve the total number of Marketing Campaigns recipients.**
 
     The contactdb is a database of your contacts for [SendGrid Marketing Campaigns](https://sendgrid.com/docs/User_Guide/Marketing_Campaigns/index.html).
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
   humanURL: http://sendgrid.com
-  baseURL: https://api.sendgrid.com//v3//contactdb/recipients/count
-  tags: Email,Contactdb, Recipients, Count
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/recipients/master/_listings/sendgrid/contactdbrecipientscount-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/recipients/master/_listings/sendgrid/contactdbrecipientscount-get-openapi.md
-- name: SendGrid Get Contactdb Recipients Search
-  x-api-slug: sendgrid
+- name: SendGrid - Get Contactdb Recipients Search
+  x-api-slug: contactdbrecipientssearch-get
   description: |-
     **This endpoint allows you to perform a search on all of your Marketing Campaigns recipients.**
 
@@ -181,43 +191,46 @@ apis:
     The contactdb is a database of your contacts for [SendGrid Marketing Campaigns](https://sendgrid.com/docs/User_Guide/Marketing_Campaigns/index.html).
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
   humanURL: http://sendgrid.com
-  baseURL: https://api.sendgrid.com//v3//contactdb/recipients/search
-  tags: Email,Contactdb, Recipients, Search
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/recipients/master/_listings/sendgrid/contactdbrecipientssearch-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/recipients/master/_listings/sendgrid/contactdbrecipientssearch-get-openapi.md
-- name: SendGrid Delete Contactdb Recipients Recipient
-  x-api-slug: sendgrid
+- name: SendGrid - Delete Contactdb Recipients Recipient
+  x-api-slug: contactdbrecipientsrecipient-id-delete
   description: |-
     **This endpoint allows you to delete a single recipient with the given ID from your contact database.**
 
     The Contacts API helps you manage your [Marketing Campaigns](https://sendgrid.com/docs/User_Guide/Marketing_Campaigns/index.html) recipients.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
   humanURL: http://sendgrid.com
-  baseURL: https://api.sendgrid.com//v3//contactdb/recipients/{recipient_id}
-  tags: Email,Contactdb, Recipients, Recipient
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/recipients/master/_listings/sendgrid/contactdbrecipientsrecipient-id-delete-openapi.md
-- name: SendGrid Get Contactdb Recipients Recipient
-  x-api-slug: sendgrid
+- name: SendGrid - Get Contactdb Recipients Recipient
+  x-api-slug: contactdbrecipientsrecipient-id-get
   description: |-
     **This endpoint allows you to retrieve a single recipient by ID from your contact database.**
 
     The Contacts API helps you manage your [Marketing Campaigns](https://sendgrid.com/docs/User_Guide/Marketing_Campaigns/index.html) recipients.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
   humanURL: http://sendgrid.com
-  baseURL: https://api.sendgrid.com//v3//contactdb/recipients/{recipient_id}
-  tags: Email,Contactdb, Recipients, Recipient
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/recipients/master/_listings/sendgrid/contactdbrecipientsrecipient-id-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/recipients/master/_listings/sendgrid/contactdbrecipientsrecipient-id-get-openapi.md
-- name: SendGrid Get Contactdb Recipients Recipient  Lists
-  x-api-slug: sendgrid
+- name: SendGrid - Get Contactdb Recipients Recipient  Lists
+  x-api-slug: contactdbrecipientsrecipient-idlists-get
   description: |-
     **This endpoint allows you to retrieve the lists that a given recipient belongs to.**
 
@@ -226,15 +239,16 @@ apis:
     The Contacts API helps you manage your [Marketing Campaigns](https://sendgrid.com/docs/User_Guide/Marketing_Campaigns/index.html) recipients.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
   humanURL: http://sendgrid.com
-  baseURL: https://api.sendgrid.com//v3//contactdb/recipients/{recipient_id}/lists
-  tags: Email,Contactdb, Recipients, Recipient, , Lists
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/recipients/master/_listings/sendgrid/contactdbrecipientsrecipient-idlists-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/recipients/master/_listings/sendgrid/contactdbrecipientsrecipient-idlists-get-openapi.md
-- name: SendGrid Get Contactdb Segments Segment  Recipients
-  x-api-slug: sendgrid
+- name: SendGrid - Get Contactdb Segments Segment  Recipients
+  x-api-slug: contactdbsegmentssegment-idrecipients-get
   description: |-
     **This endpoint allows you to retrieve all of the recipients in a segment with the given ID.**
 
@@ -243,29 +257,249 @@ apis:
     For more information about segments in Marketing Campaigns, please see our [User Guide](https://sendgrid.com/docs/User_Guide/Marketing_Campaigns/lists.html#-Create-a-Segment).
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
   humanURL: http://sendgrid.com
-  baseURL: https://api.sendgrid.com//v3//contactdb/segments/{segment_id}/recipients
-  tags: Email,Contactdb, Segments, Segment, , Recipients
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/recipients/master/_listings/sendgrid/contactdbsegmentssegment-idrecipients-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/recipients/master/_listings/sendgrid/contactdbsegmentssegment-idrecipients-get-openapi.md
-- name: SendGrid
-  x-api-slug: sendgrid
-  description: SendGrids cloud-based email infrastructure relieves businesses of the
-    cost and complexity of maintaining custom email systems. SendGrid provides reliable
-    delivery, scalability and real-time analytics along with flexible APIs that make
-    custom integration a breeze.
+- name: SendGrid - Delete Contactdb Lists List  Recipients Recipient
+  x-api-slug: contactdblistslist-idrecipientsrecipient-id-delete
+  description: |-
+    **This endpoint allows you to delete a single recipient from a list.**
+
+    The Contacts API helps you manage your [Marketing Campaigns](https://sendgrid.com/docs/User_Guide/Marketing_Campaigns/index.html) recipients.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
   humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3
-  tags: Recipients
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/recipients/master/_listings/sendgrid/openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/recipients/master/_listings/sendgrid/contactdblistslist-idrecipientsrecipient-id-delete-openapi.md
+- name: SendGrid - Add Contactdb Lists List  Recipients Recipient
+  x-api-slug: contactdblistslist-idrecipientsrecipient-id-post
+  description: |-
+    **This endpoint allows you to add a single recipient to a list.**
+
+    The Contacts API helps you manage your [Marketing Campaigns](https://sendgrid.com/docs/User_Guide/Marketing_Campaigns/index.html) recipients.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/recipients/master/_listings/sendgrid/contactdblistslist-idrecipientsrecipient-id-post-openapi.md
+- name: SendGrid - Delete Contactdb Recipients Recipient
+  x-api-slug: contactdbrecipientsrecipient-id-delete
+  description: |-
+    **This endpoint allows you to delete a single recipient with the given ID from your contact database.**
+
+    The Contacts API helps you manage your [Marketing Campaigns](https://sendgrid.com/docs/User_Guide/Marketing_Campaigns/index.html) recipients.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/recipients/master/_listings/sendgrid/contactdbrecipientsrecipient-id-delete-openapi.md
+- name: SendGrid - Get Contactdb Recipients Recipient
+  x-api-slug: contactdbrecipientsrecipient-id-get
+  description: |-
+    **This endpoint allows you to retrieve a single recipient by ID from your contact database.**
+
+    The Contacts API helps you manage your [Marketing Campaigns](https://sendgrid.com/docs/User_Guide/Marketing_Campaigns/index.html) recipients.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/recipients/master/_listings/sendgrid/contactdbrecipientsrecipient-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/recipients/master/_listings/sendgrid/contactdbrecipientsrecipient-id-get-openapi.md
+- name: SendGrid - Get Contactdb Recipients Recipient  Lists
+  x-api-slug: contactdbrecipientsrecipient-idlists-get
+  description: |-
+    **This endpoint allows you to retrieve the lists that a given recipient belongs to.**
+
+    Each recipient can be on many lists. This endpoint gives you all of the lists that any one recipient has been added to.
+
+    The Contacts API helps you manage your [Marketing Campaigns](https://sendgrid.com/docs/User_Guide/Marketing_Campaigns/index.html) recipients.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/recipients/master/_listings/sendgrid/contactdbrecipientsrecipient-idlists-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/recipients/master/_listings/sendgrid/contactdbrecipientsrecipient-idlists-get-openapi.md
+- name: SendGrid - Delete Contactdb Lists List  Recipients Recipient
+  x-api-slug: contactdblistslist-idrecipientsrecipient-id-delete
+  description: |-
+    **This endpoint allows you to delete a single recipient from a list.**
+
+    The Contacts API helps you manage your [Marketing Campaigns](https://sendgrid.com/docs/User_Guide/Marketing_Campaigns/index.html) recipients.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/recipients/master/_listings/sendgrid/contactdblistslist-idrecipientsrecipient-id-delete-openapi.md
+- name: SendGrid - Add Contactdb Lists List  Recipients Recipient
+  x-api-slug: contactdblistslist-idrecipientsrecipient-id-post
+  description: |-
+    **This endpoint allows you to add a single recipient to a list.**
+
+    The Contacts API helps you manage your [Marketing Campaigns](https://sendgrid.com/docs/User_Guide/Marketing_Campaigns/index.html) recipients.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/recipients/master/_listings/sendgrid/contactdblistslist-idrecipientsrecipient-id-post-openapi.md
+- name: SendGrid - Delete Contactdb Recipients Recipient
+  x-api-slug: contactdbrecipientsrecipient-id-delete
+  description: |-
+    **This endpoint allows you to delete a single recipient with the given ID from your contact database.**
+
+    The Contacts API helps you manage your [Marketing Campaigns](https://sendgrid.com/docs/User_Guide/Marketing_Campaigns/index.html) recipients.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/recipients/master/_listings/sendgrid/contactdbrecipientsrecipient-id-delete-openapi.md
+- name: SendGrid - Get Contactdb Recipients Recipient
+  x-api-slug: contactdbrecipientsrecipient-id-get
+  description: |-
+    **This endpoint allows you to retrieve a single recipient by ID from your contact database.**
+
+    The Contacts API helps you manage your [Marketing Campaigns](https://sendgrid.com/docs/User_Guide/Marketing_Campaigns/index.html) recipients.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/recipients/master/_listings/sendgrid/contactdbrecipientsrecipient-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/recipients/master/_listings/sendgrid/contactdbrecipientsrecipient-id-get-openapi.md
+- name: SendGrid - Get Contactdb Recipients Recipient  Lists
+  x-api-slug: contactdbrecipientsrecipient-idlists-get
+  description: |-
+    **This endpoint allows you to retrieve the lists that a given recipient belongs to.**
+
+    Each recipient can be on many lists. This endpoint gives you all of the lists that any one recipient has been added to.
+
+    The Contacts API helps you manage your [Marketing Campaigns](https://sendgrid.com/docs/User_Guide/Marketing_Campaigns/index.html) recipients.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/recipients/master/_listings/sendgrid/contactdbrecipientsrecipient-idlists-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/recipients/master/_listings/sendgrid/contactdbrecipientsrecipient-idlists-get-openapi.md
+- name: SendGrid - Get Contactdb Recipients Recipient  Lists
+  x-api-slug: contactdbrecipientsrecipient-idlists-get
+  description: |-
+    **This endpoint allows you to retrieve the lists that a given recipient belongs to.**
+
+    Each recipient can be on many lists. This endpoint gives you all of the lists that any one recipient has been added to.
+
+    The Contacts API helps you manage your [Marketing Campaigns](https://sendgrid.com/docs/User_Guide/Marketing_Campaigns/index.html) recipients.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/recipients/master/_listings/sendgrid/contactdbrecipientsrecipient-idlists-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/recipients/master/_listings/sendgrid/contactdbrecipientsrecipient-idlists-get-openapi.md
+- name: SendGrid - Get Contactdb Recipients Recipient
+  x-api-slug: contactdbrecipientsrecipient-id-get
+  description: |-
+    **This endpoint allows you to retrieve a single recipient by ID from your contact database.**
+
+    The Contacts API helps you manage your [Marketing Campaigns](https://sendgrid.com/docs/User_Guide/Marketing_Campaigns/index.html) recipients.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/recipients/master/_listings/sendgrid/contactdbrecipientsrecipient-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/recipients/master/_listings/sendgrid/contactdbrecipientsrecipient-id-get-openapi.md
+- name: SendGrid - Delete Contactdb Recipients Recipient
+  x-api-slug: contactdbrecipientsrecipient-id-delete
+  description: |-
+    **This endpoint allows you to delete a single recipient with the given ID from your contact database.**
+
+    The Contacts API helps you manage your [Marketing Campaigns](https://sendgrid.com/docs/User_Guide/Marketing_Campaigns/index.html) recipients.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/recipients/master/_listings/sendgrid/contactdbrecipientsrecipient-id-delete-openapi.md
+- name: SendGrid - Add Contactdb Lists List  Recipients Recipient
+  x-api-slug: contactdblistslist-idrecipientsrecipient-id-post
+  description: |-
+    **This endpoint allows you to add a single recipient to a list.**
+
+    The Contacts API helps you manage your [Marketing Campaigns](https://sendgrid.com/docs/User_Guide/Marketing_Campaigns/index.html) recipients.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/recipients/master/_listings/sendgrid/contactdblistslist-idrecipientsrecipient-id-post-openapi.md
+- name: SendGrid - Delete Contactdb Lists List  Recipients Recipient
+  x-api-slug: contactdblistslist-idrecipientsrecipient-id-delete
+  description: |-
+    **This endpoint allows you to delete a single recipient from a list.**
+
+    The Contacts API helps you manage your [Marketing Campaigns](https://sendgrid.com/docs/User_Guide/Marketing_Campaigns/index.html) recipients.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/recipients/master/_listings/sendgrid/contactdblistslist-idrecipientsrecipient-id-delete-openapi.md
 x-common:
 - type: x--net-library
   url: https://sendgrid.com/docs/Code_Examples/csharp.html
+- type: x-api-gallery
+  url: http://school.digger.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://sendgrid.stack.network
 - type: x-base
   url: https://api.sendgrid.com
 - type: x-blog

@@ -7,13 +7,13 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11768-call
 x-kinRank: "9"
 x-alexaRank: "129466"
 tags: Recipients
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/recipients/master/_listings/callfire/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Callfire Add recipients to a call broadcast
-  x-api-slug: callfire
+- name: CallFire - Add recipients to a call broadcast
+  x-api-slug: callsbroadcastsidrecipients-post
   description: Use this API to add the recipients to an existing voice broadcast.
     Post a list of Recipient objects to be added to the voice broadcast campaign.
     These contacts will not go through validation process, and will be acted upon
@@ -21,13 +21,15 @@ apis:
     numbers
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11768-callfire.jpg
   humanURL: http://www.callfire.com
-  baseURL: https://www.callfire.com//v2//calls/broadcasts/{id}/recipients
-  tags: Calls,Broadcasts,Recipients
+  baseURL: https://www.callfire.com//v2
+  tags: SMS, Voice, Stack Network, Getting Started Example, Telecommunications, Technology,
+    SaaS, API Provider, Telecommunications, Messages, Profiles, Service API, Relative
+    Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/recipients/master/_listings/callfire/callsbroadcastsidrecipients-post-openapi.md
-- name: Callfire Add recipients to a text broadcast
-  x-api-slug: callfire
+- name: CallFire - Add recipients to a text broadcast
+  x-api-slug: textsbroadcastsidrecipients-post
   description: Use this API to add recipients to a text broadcast which is already
     created. Post a list of Recipient objects to be immediately added to the text
     broadcast campaign. These contacts will not go through validation process, and
@@ -35,22 +37,13 @@ apis:
     ids, or list of numbers
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11768-callfire.jpg
   humanURL: http://www.callfire.com
-  baseURL: https://www.callfire.com//v2//texts/broadcasts/{id}/recipients
-  tags: Texts,Broadcasts,Recipients
+  baseURL: https://www.callfire.com//v2
+  tags: SMS, Voice, Stack Network, Getting Started Example, Telecommunications, Technology,
+    SaaS, API Provider, Telecommunications, Messages, Profiles, Service API, Relative
+    Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/recipients/master/_listings/callfire/textsbroadcastsidrecipients-post-openapi.md
-- name: Callfire
-  x-api-slug: callfire
-  description: Grow your business with virtual phone numbers, IVR, voice broadcasting,
-    mass text messaging services and power dialing. Try CallFire for FREE!
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11768-callfire.jpg
-  humanURL: http://www.callfire.com
-  baseURL: https://www.callfire.com//v2
-  tags: Recipients
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/recipients/master/_listings/callfire/openapi.md
 x-common:
 - type: x--net-sdk
   url: https://github.com/CallFire/CallFire-CSharp-SDK
@@ -58,6 +51,10 @@ x-common:
   url: https://answers.callfire.com/hc/en-us/sections/200166268-Billing
 - type: x-account-settings
   url: https://answers.callfire.com/hc/en-us/sections/200187056-Account-Settings
+- type: x-api-gallery
+  url: http://bureau.of.justice.statistics.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://callfire.stack.network
 - type: x-authentication
   url: https://www.callfire.com/api-documentation/how-do-i-enable-api-on-my-account
 - type: x-blog
